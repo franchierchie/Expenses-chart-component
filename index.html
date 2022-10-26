@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main>
+    <div class="container">
+
+      <div class="balance-container">
+        <div class="balance">
+          <p>My balance</p>
+          <h2 class="balance-amount"></h2>
+        </div> <!-- balance -->
+
+        <div class="logo">
+          <img src="./images/logo.svg" alt="logo">
+        </div> <!-- logo -->
+      </div> <!-- balance-container -->
+
+      <div class="chart-container">
+        <h2>Spending - Last 7 days</h2>
+
+        <div class="chart"></div>
+          
+          <div class="detail">
+            <div class="detail-month">
+              <p>Total this month</p>
+              <h2 class="total-spent"></h2>
+            </div> <!-- detail-month -->
+            
+            <div class="detail-last-month">
+              <p class="detail-percentage">+2.4%</p>
+              <p>from last month</p>
+            </div> <!-- detail-last-month -->
+          </div> <!-- detail -->
+        </div> <!-- chart-container -->
+      </div> <!-- chart -->
+        
+    </div> <!-- container -->
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
